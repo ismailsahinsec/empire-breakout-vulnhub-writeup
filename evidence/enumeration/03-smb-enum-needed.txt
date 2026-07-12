@@ -1,0 +1,7 @@
+Missing required file:
+03-smb-enum.png
+
+You do not currently have a safe SMB enumeration screenshot among the uploaded images.
+Create a new sanitized screenshot from enum4linux or smbclient output, then upload it as:
+
+images/03-smb-enum.png

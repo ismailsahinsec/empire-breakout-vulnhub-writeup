@@ -1,0 +1,12 @@
+name: Bug report
+description: Report a documentation or repository issue
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the problem without posting secrets.
+    validations:
+      required: true

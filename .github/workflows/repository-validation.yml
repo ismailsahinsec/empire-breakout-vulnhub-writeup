@@ -1,0 +1,23 @@
+name: Repository validation
+on:
+  push:
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Required files
+        run: |
+          test -f README.md
+          test -f README_TR.md
+          test -f README_EN.md
+          test -f LICENSE
+          test -f DISCLAIMER.md
+      - name: Block VM and oversized files
+        run: |
+          if find . -type f \( -name "*.ova" -o -name "*.vmdk" -o -name "*.vdi" -o -name "*.qcow2" \) | grep .; then exit 1; fi
+          if find . -type f -size +50M | grep .; then exit 1; fi
+      - name: Sensitive pattern scan
+        run: |
+          if grep -RInE "ghp_|github_pat_|BEGIN (OPENSSH )?PRIVATE KEY|Authorization:|Bearer |password=|token=|cookie=" --include="*.md" --include="*.txt" --include="*.yml" --include="*.yaml" .; then exit 1; fi

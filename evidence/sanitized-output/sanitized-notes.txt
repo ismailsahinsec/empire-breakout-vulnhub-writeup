@@ -1,0 +1,34 @@
+Empire: Breakout — Sanitized Notes
+
+This version has been cleaned for publication.
+
+Sensitive values were replaced with placeholders:
+- <TARGET_IP>
+- <LOCAL_SUBNET>
+- <ATTACKER_IP>
+- <USERNAME>
+- <PASSWORD>
+
+Suggested safe command format examples:
+
+curl -I http://<TARGET_IP>
+curl http://<TARGET_IP>
+nmap -sn <LOCAL_SUBNET>
+netdiscover -r <LOCAL_SUBNET>
+gobuster dir -u http://<TARGET_IP> -w /usr/share/seclists/Discovery/Web-Content/common.txt
+gobuster dir -u http://<TARGET_IP> -w /usr/share/seclists/Discovery/Web-Content/big.txt
+curl -I http://<TARGET_IP>/server-status
+curl -H "X-Forwarded-For: ***.0.0.1" http://<TARGET_IP>/server-status
+smbclient -L //<TARGET_IP> -N
+enum4linux -a <TARGET_IP>
+smbclient //<TARGET_IP>/IPC$ -U <USERNAME>
+curl -I http://<TARGET_IP>:10000
+curl -I http://<TARGET_IP>:20000
+
+If you later want to publish screenshots, make sure they do not expose:
+- real IP addresses
+- usernames
+- passwords
+- browser history
+- hostnames you do not want public
+- terminal prompt details that identify your environment

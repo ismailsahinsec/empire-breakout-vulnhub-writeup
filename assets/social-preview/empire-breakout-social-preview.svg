@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Empire Breakout social preview">
+  <rect width="1200" height="630" fill="#0b1120"/><rect x="60" y="60" width="1080" height="510" rx="18" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <text x="100" y="185" font-family="Segoe UI, Arial" font-size="68" font-weight="800" fill="#f8fafc">Empire: Breakout</text><text x="104" y="255" font-family="Segoe UI, Arial" font-size="38" fill="#bfdbfe">VulnHub Walkthrough</text><text x="104" y="340" font-family="Consolas, monospace" font-size="30" fill="#86efac">Enumeration • Initial Access • Privilege Escalation</text><text x="104" y="415" font-family="Segoe UI, Arial" font-size="34" fill="#e5e7eb">TR / EN</text><text x="104" y="490" font-family="Segoe UI, Arial" font-size="24" fill="#94a3b8">Educational lab write-up with defensive analysis</text>
+</svg>

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Empire: Breakout VulnHub Professional Write-up"
+message: "If this repository helps your learning or documentation workflow, please cite it."
+type: software
+authors:
+  - family-names: "ŞAHİN"
+    given-names: "İsmail"
+repository-code: "https://github.com/ismailsahinsec/empire-breakout-vulnhub-writeup"
+license: MIT
+version: "1.0.0"
+date-released: "2026-07-13"

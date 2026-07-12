@@ -1,6 +1,6 @@
 # Empire: Breakout — VulnHub Write-up
 
-[🇬🇧 English version](README.md)
+[🇬🇧 English version](../../README_EN.md)
 
 > **Empire: Breakout** VulnHub makinesinin **Kali Linux** kullanılarak çözülmüş adım adım analizidir.
 >
@@ -288,7 +288,7 @@ Bu yüzden bu çalışma, özellikle başlangıç seviyesinde **enumeration mant
 
 ```text
 empire-breakout-vulnhub-writeup/
-├── README.md
+├── ../../README_EN.md
 ├── README.tr.md
 ├── images/
 │   ├── 01-target-overview.png
@@ -322,3 +322,4 @@ Bu çalışma benim için sadece bir makine çözümü değildi.
 Aynı zamanda şu farkı daha net anlamamı sağladı:
 
 > Pentest'te asıl beceri sadece araç kullanmak değil, her çıktının sana ne anlattığını okuyabilmektir.
+

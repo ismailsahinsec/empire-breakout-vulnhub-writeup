@@ -1,0 +1,10 @@
+[2026-07-13T00:06:16] Selected project path: C:\GitHub\empire-breakout-vulnhub-writeup
+[2026-07-13T00:06:16] Source evidence: Downloads README_safe.md, README_tr_safe.md, sanitized-notes.txt, github-images-safe.zip
+[2026-07-13T00:06:16] Backup created: C:\GitHub\BACKUP_empire-breakout-vulnhub-writeup_20260713_000616
+[2026-07-13T00:06:35] Repository structure created and evidence assets placed.
+[2026-07-13T00:06:44] Removed temporary source duplicates after evidence placement.
+[2026-07-13T00:11:10] Banner, social preview and main README written.
+[2026-07-13T00:12:00] TR/EN READMEs and policy files written.
+[2026-07-13T00:22:11] Fixed legacy evidence README links.
+[2026-07-13T00:23:27] Remote repo cloned, generated project reapplied from C:\GitHub\empire-breakout-vulnhub-writeup_generated_20260713_002326
+[2026-07-13T00:23:43] Removed legacy README.tr.md after replacing with README_TR.md.
